@@ -68,12 +68,12 @@ const Dashboard = () => {
           <RegisterPopup func={setShowReg}/>
           </div>
         </div>
-      <div className="w-full relative flex justify-end py-1 ">
+      {/* <div className="w-full relative flex justify-end py-1 ">
         <div className="absolute top-2 left-2">
           <img className="w-[114px]" src={logo} alt="" />
-        </div>
+        </div> */}
         <WalletButton />
-      </div>
+      {/* </div> */}
 
       <Navbar />
 

@@ -1,6 +1,7 @@
 import React, { useState, useContext } from "react";
 import axios from "axios";
 import { ChatContext } from "../context/ChatContext";
+import WalletButton from "./WalletButton";
 
 const ListProperty = () => {
   const [city, setCity] = useState("");
@@ -101,6 +102,9 @@ const ListProperty = () => {
   //   handleUpload();
   // }, [propertyImages]);
   return (
+    <div>
+
+      <WalletButton/>
     <div className="flex flex-col p-5 gap-4">
       <div className="w-[10.438rem] relative text-[1rem] font-medium font-inter text-black text-left inline-block">
         Enter Property details
@@ -273,6 +277,8 @@ const ListProperty = () => {
       </div>
       {/* spinner end */}
     </div>
+    </div>
+
   );
 };
 
