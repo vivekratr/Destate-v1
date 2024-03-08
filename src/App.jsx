@@ -8,7 +8,7 @@ import Clone1 from './pages/Clone1';
 import {ChatProvider} from './context/ChatContext'
 
 
-import Mainpage from './pages/Mainpage';
+import Mainpage from './pages/Mainpage'; 
 import RegisterPopup from './components/RegisterPopup';
 import Dashboard from './pages/Dashboard';
 import PropertyDetail from './components/PropertyDetail';
